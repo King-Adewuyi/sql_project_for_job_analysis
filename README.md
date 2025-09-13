@@ -57,7 +57,7 @@ LIMIT 10
 ## The Analysis 
 
 ### 1. Top paying Data Analysis Jobs
-![Top paying Data Analysis Jobs Chart](assets\Rename.png)
+![Top paying Data Analysis Jobs Chart](assets/Rename.png)
 *I exported the SQL query results and created a bar graph in Excel to illustrate the top 10 salaries for data analyst roles.*
 
 ### 2. Skills for Top-Paying Jobs
@@ -92,7 +92,7 @@ LIMIT 10
 
 - Other Skills – tools like R, Snowflake, Pandas, and Excel also appear, though less frequently, reflecting diverse technical expectations.
 
-![Skills for Top-Paying Jobs Chart](assets\count.png)
+![Skills for Top-Paying Jobs Chart](assets/count.png)
 *I exported the SQL query results and used Excel to create a bar graph showing the frequency of skills required for the top 10 highest-paying data analyst jobs.*
 
 ### 3. In-Demand Skills for Data Analysts
