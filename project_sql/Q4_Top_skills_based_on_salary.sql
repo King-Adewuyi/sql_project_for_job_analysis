@@ -8,7 +8,7 @@ WITH demand_skills AS (
         ON skills_job_dim.skill_id = skills_dim.skill_id
     LEFT JOIN job_postings_fact  
         ON job_postings_fact.job_id = skills_job_dim.job_id
-    WHERE job_postings_fact.salary_year_avg IS NOT NULL
+    WHERE job_postings_fact.salary_year_avg IS NOT NULL AND job_work_from_home = TRUE
     GROUP BY skills_dim.skills, job_title_short
 )
 
